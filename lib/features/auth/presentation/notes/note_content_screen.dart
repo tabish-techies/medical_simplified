@@ -75,7 +75,7 @@ class _NoteContentScreenState extends State<NoteContentScreen> {
         savePath: file.path,
         title: title,
         onSuccess: () {
-          print('✅ Download finished callback');
+          print('✅ Download finishedd callback');
           if (mounted) {
             _navigateToReader(file.path, title);
           }
