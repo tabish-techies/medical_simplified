@@ -1,0 +1,51 @@
+name: medical_simplified
+description: "A Flutter application for medical education and resources."
+publish_to: 'none'
+
+version: 2.0.0+10
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.2.0
+  flutter_secure_storage: ^9.0.0
+  url_launcher: ^6.3.0
+  font_awesome_flutter: ^10.7.0
+  path_provider: ^2.1.1
+  dio: ^5.4.0
+  video_player: ^2.9.1
+  chewie: ^1.8.1
+  permission_handler: ^11.3.0
+  firebase_core: ^3.4.0
+  firebase_auth: ^5.1.0
+  upgrader: ^12.3.0
+  razorpay_flutter: ^1.4.0
+  syncfusion_flutter_pdfviewer: ^32.1.21
+  cached_network_image: ^3.3.1
+  shimmer: ^3.0.0
+  package_info_plus: ^9.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/medical_Simplified_logo.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/medical_Simplified_logo.png
+    - assets/images/rog nidan paper 2_thumbnail.png
+    - assets/images/samhita_adhyan_thumnail.png
+    - assets/images/swath paper 1_thumbnail.png
+    - assets/images/swath paper 2_thumbnail.png

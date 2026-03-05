@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "106102887102",
+    "project_id": "medical-simplified",
+    "storage_bucket": "medical-simplified.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106102887102:android:af0e4a071c23d13cb7c4ef",
+        "android_client_info": {
+          "package_name": "com.tabish.medicalsimplified"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtpgCTTyLfehpNiFwCTNV1vlvji2dNPxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

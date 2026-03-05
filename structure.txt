@@ -1,0 +1,41 @@
+.
+├── analysis_options.yaml
+├── lib
+│   ├── app.dart
+│   ├── core
+│   │   ├── networking
+│   │   │   └── api_client.dart
+│   │   └── storage
+│   │       └── token_storage.dart
+│   ├── features
+│   │   └── auth
+│   │       ├── data
+│   │       │   ├── auth_api.dart
+│   │       │   └── auth_repository.dart
+│   │       └── presentation
+│   │           ├── home
+│   │           │   ├── home_screen.dart
+│   │           │   └── main_screen.dart
+│   │           ├── login
+│   │           │   ├── login_screen.dart
+│   │           │   └── widgets
+│   │           ├── my_courses
+│   │           │   └── my_courses_screen.dart
+│   │           ├── notifications
+│   │           │   └── notification_screen.dart
+│   │           ├── profile
+│   │           │   ├── contact_us
+│   │           │   ├── my_account
+│   │           │   └── profile_screen.dart
+│   │           ├── registration
+│   │           │   └── registration_screen.dart
+│   │           └── splash
+│   │               └── splash_screen.dart
+│   └── main.dart
+├── medical_simplified.iml
+├── pubspec.lock
+├── pubspec.yaml
+├── README.md
+└── structure.txt
+
+19 directories, 20 files
