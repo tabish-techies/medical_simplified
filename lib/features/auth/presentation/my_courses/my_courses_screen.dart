@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'tabs/purchased_courses_tab.dart';
 import 'tabs/purchased_notes_tab.dart';
 import 'tabs/test_series_tab.dart';
-import 'tabs/syllabus_tab.dart';
+import 'tabs/purchased_syllabus_tab.dart';
 
 // --- UI CONSTANTS ---
 const Color kPrimaryColor = Color(0xFF2563EB); // Professional Royal Blue
@@ -143,7 +143,7 @@ class _MyCoursesScreenState extends State<MyCoursesScreen> with SingleTickerProv
           Expanded(
             child: TabBarView(
               controller: _tabController,
-              children: const [PurchasedCoursesTab(), PurchasedNotesTab(), TestSeriesTab(), SyllabusTab()],
+              children: const [PurchasedCoursesTab(), PurchasedNotesTab(), TestSeriesTab(), PurchasedSyllabusTab()],
             ),
           ),
         ],
